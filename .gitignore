@@ -54,7 +54,6 @@ rsconnect/
 
 # Rendered content
 *_files/
-*.html
 quarto/*.html
 
 # Template files
