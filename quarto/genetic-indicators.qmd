@@ -66,7 +66,7 @@ google-scholar: true
 
 ------------------------------------------------------------------------
 
-![Left to right: Rose's mountain toadlet (Capensibufo rosei) © Jeremy Shelton; Geometric tortoise (Psammobates geometricus) © Andre Botha; Southern white rhinoceros (Ceratotherium simum simum) © Greg Martindale; Grey rhebok (Pelea capreolus) © Tim Kuiper.](imgs/genetics-sp-banner.png)
+![Left to right: Rose's mountain toadlet (*Capensibufo rosei*) © Jeremy Shelton; Geometric tortoise (*Psammobates geometricus*) © Andre Botha; Southern white rhinoceros (*Ceratotherium simum simum*) © Greg Martindale; Grey rhebok (*Pelea capreolus*) © Tim Kuiper.](imgs/genetics-sp-banner.png)
 
 ## Monitoring Genetic Diversity using Indicators
 
@@ -172,7 +172,7 @@ gt(tbl_taxa) %>% nba_tbl_theme()
 
 Of concern is that even Least Concern and Near Threatened taxa have indicator scores \< 1 (@fig-ne-by-threatstatus), indicating a loss of diversity that has gone undetected using other measures of extinction risk.
 
-![Violin plots illustrating the spread in Ne \>500 indicator values across National IUCN Red List categories. Abbreviations reflect official IUCN Red List categories for species assessed in [@mastretta2024]. Sample sizes (n) are provided for each threat category.](imgs/ne500-pilot_sanbi.png){#fig-ne-by-threatstatus .illustration fig-align="left"}
+![Violin plots illustrating the spread in Ne \>500 indicator values across National IUCN Red List categories. Abbreviations reflect official IUCN Red List categories for species assessed in [@mastretta2024]. Sample sizes (n) are provided for each threat category.](imgs/ne500-pilot_sanbi.png){#fig-ne-by-threatstatus .illustration fig-align="left" width="650"}
 
 To better understand the genetic health of South African biodiversity, efforts are underway to expand this work across complete taxonomic groups (see Mammal Red List [page](../species/sp_mammals.qmd)).
 
@@ -218,23 +218,7 @@ As technology advances and the cost of molecular processing continues to decreas
 
 ## Recommended citation
 
-```{r}
-#| output: asis
-#| label: lst-citation-code
-
-library(nbaR) 
-library(knitr)
-library(rmarkdown)
-
-# Code for fetching the yaml metadata
-# Note that this only runs when the .qmd file is rendered, therefore the outputs of this code block will return no results if you try to run it within R - that does not mean it is not working
-
-meta <- knitr::opts_knit$get("rmarkdown.pandoc.to")  # forces knitr to load metadata
-meta <- rmarkdown::metadata  # full YAML is now in `meta`
-
-nba_citation(meta)
-
-```
+da Silva, J.M., Nieto Lawrence, J.A., & Tolley, K.A. 2025. Genetic Diversity. National Biodiversity Assessment 2025. South African National Biodiversity Institute. http://nba.sanbi.org.za/.
 
 ## References
 
