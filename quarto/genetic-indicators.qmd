@@ -84,7 +84,7 @@ Conservation monitoring is guided by key principles (@fig-con-gen-princ), which 
 
 [^1]: Genetic drift is a random change in the genetic makeup of a population from one generation to the next that happens by chance.
 
-![Representation of three core conservation genetic principles focused on safeguarding evolutionary distinctiveness (A & B), protecting genetically distinct populations to minimize the risk of losing evolutionary evolutionary distinctiveness and ensuring all populations are large enough to ensure their long-term persistence (C). Red lines represent deep phylogenetic branches at risk, which can be caused by either entire clades of species being threatened with extinction (e.g., pangolins; A) or by threatened species isolated on long branches of the phylogenetic tree (e.g., secretary bird, B). C: Dashed lines represent the loss of a genetically distinct amphibian population, while polygons with solid lines represent different existing populations, each differing in size with the largest being the most likely to avoid genetic erosion. A & B taken from Gumbs et al., 2023. ](imgs/con-gen-princip.png){#fig-con-gen-princ}
+![Representation of three core conservation genetic principles focused on safeguarding evolutionary distinctiveness (A & B), protecting genetically distinct populations to minimize the risk of losing evolutionary evolutionary distinctiveness and ensuring all populations are large enough to ensure their long-term persistence (C). Red lines represent deep phylogenetic branches at risk, which can be caused by either entire clades of species being threatened with extinction (e.g., pangolins; A) or by threatened species isolated on long branches of the phylogenetic tree (e.g., secretary bird, B). C: Dashed lines represent the loss of a genetically distinct amphibian population, while polygons with solid lines represent different existing populations, each differing in size with the largest being the most likely to avoid genetic erosion. A & B taken from Gumbs et al., 2023.](imgs/con-gen-princip.png){#fig-con-gen-princ}
 
 In line with these principles, South Africa has adopted four genetic indicators from the Kunming-Montreal Global Biodiversity Framework, which can be based on direct genetic data or on proxies (when genetic data are not available; namely the [Ne 500](#box-1) and [PM](#box-2) indicators).
 
@@ -117,7 +117,6 @@ This index is grounded in the understanding that genetically distinctive and thr
 
 This complementary indicator is estimated as the total phylogenetic diversity in a phylogeny weighted by the probability of extinction for each species. This can be expressed as a percentage of the total phylogenetic diversity for the clade, where 100% would indicate that all species have the highest possible probability of extinction and all PD is expected to be lost, while 0% suggests that all species are safe from extinction and no PD is expected to be lost. The larger number of threatened species that contribute to high phylogenetic diversity, the more diversity is expected to be lost into the future.
 :::
-
 
 ## South Africa’s Ne 500 and PM indicator scores
 
@@ -173,7 +172,7 @@ gt(tbl_taxa) %>% nba_tbl_theme()
 
 Of concern is that even Least Concern and Near Threatened taxa have indicator scores \< 1 (@fig-ne-by-threatstatus), indicating a loss of diversity that has gone undetected using other measures of extinction risk.
 
-![Violin plots illustrating the spread in Ne \>500 indicator values across National IUCN Red List categories. Abbreviations reflect official IUCN Red List categories for species assessed in [@mastretta2024]. Sample sizes (n) are provided for each threat category.](imgs/ne500-pilot.png){#fig-ne-by-threatstatus .illustration fig-align="left" width="650"}
+![Violin plots illustrating the spread in Ne \>500 indicator values across National IUCN Red List categories. Abbreviations reflect official IUCN Red List categories for species assessed in [@mastretta2024]. Sample sizes (n) are provided for each threat category.](imgs/ne500-pilot_sanbi.png){#fig-ne-by-threatstatus .illustration fig-align="left"}
 
 To better understand the genetic health of South African biodiversity, efforts are underway to expand this work across complete taxonomic groups (see Mammal Red List [page](../species/sp_mammals.qmd)).
 
