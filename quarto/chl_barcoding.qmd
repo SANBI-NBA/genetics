@@ -65,7 +65,7 @@ appendix-cite-as: false
 google-scholar: true
 ---
 
-## Understanding South Africa’s Biodiversity through DNA Barcoding
+## Understanding South Africa’s biodiversity through DNA barcoding
 
 South Africa’s rich biodiversity spans terrestrial, freshwater, and marine ecosystems, encompassing complex community assemblages of organisms. This diversity is a critical national asset, underpinning strategic objectives across conservation, sustainable resource management, and socio-economic development[@skownoNationalBiodiversityAssessment2018]. Understanding and documenting biodiversity is therefore essential for informed decision-making, guiding conservation strategies, sectoral policies, and sustainable use of our natural resources to address challenges such as poverty, inequality and unemployment [@cbdConventionBiologicalDiversity].
 
@@ -85,7 +85,7 @@ Between 2013 and 2022, the FBIP funded 124 DNA barcoding-related projects totali
 
 A key component of DNA barcoding is the availability of a comprehensive reference library of expertly identified specimens. The [**Barcode of Life Database (BOLD)**](https://boldsystems.org/) serves as a trusted repository for these sequences, ensuring that barcodes meet rigorous quality standards and are derived from taxonomically verified specimens. By providing a reliable foundation for species identification, BOLD underpins SABOL and other national barcoding initiatives, enabling accurate biodiversity assessments and monitoring.
 
-## South African Barcoding Efforts to Date
+## South African barcoding efforts to date
 
 Over the past decade, South Africa has made significant progress in expanding its faunal DNA barcoding database, particularly for insects and other invertebrates. An early review of DNA barcoding reported that South Africa had contributed approximately 48,000 faunal DNA barcodes to BOLD, representing approximately 2.3% of all known species globally, at the time of this review [@dasilvaReviewDecadeDNA2016].
 
@@ -93,9 +93,9 @@ Since 2016, contributions to the reference library have grown substantially, wit
 
 This milestone reflects the **collaborative efforts of 284 research institutions**, demonstrating the commitment of South Africa's biodiversity research community to building a comprehensive DNA barcode species reference library. Despite this progress, challenges remain, including incomplete geographical coverage, taxonomic gaps, limited taxonomic expertise, and the underutilization of barcode data in conservation and management frameworks [@dasilvaReviewDecadeDNA2016].
 
-![BIN to species ratio regression analysis. The relationship between the number of BINs assigned to records and the number of species morphologically identified and assigned to species name, with the orange line indicating the 1:1 ratio (BIN to Species). Plot adapted from Mahlatse et al. under review.](imgs/taxon-vs-bin.png){#fig-taxon-bin fig-align="center" width="600"}
+![BIN (Barcode Index Numbers)to species ratio regression analysis. The relationship between the number of BINs assigned to records and the number of species morphologically identified and assigned to species name, with the orange line indicating the 1:1 ratio (BIN to Species). Plot adapted from Mahlatse et al. under review.](imgs/taxon-vs-bin.png){#fig-taxon-bin fig-align="center" width="600"}
 
-## Future Directions and Recommendations in South Africa’s DNA barcoding
+## Future directions and recommendations
 
 A recent gap analysis [@mahlatse-underreview] indicates that South Africa's reference library still has taxonomic and geographic gaps, particularly in priority taxa and under-sampled regions (@fig-distribution). The BIN system relies on multiple sequences per species that capture intraspecific variation across distributions and to improve phylogenetic resolution [@ratnasinghamDNABasedRegistryAll2013]. To maximize its effectiveness, future sampling should focus on:
 
